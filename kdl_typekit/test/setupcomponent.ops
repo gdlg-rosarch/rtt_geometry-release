@@ -1,0 +1,5 @@
+#!/usr/bin/env cdeployer
+import("kdl_typekit")
+loadComponent("testcomponent","KDLTypekitTestComponent")
+server("testcomponent",true)
+testcomponent.start()

@@ -1,0 +1,17 @@
+<package>
+  <name>eigen_typekit</name>
+  <version>2.9.1</version>
+  <license>LGPL</license>
+  <description>An Orocos typekit for Eigen types.</description>
+  <maintainer email="orocos-dev@lists.mech.kuleuven.be">Orocos Developers</maintainer>
+
+  <author>Ruben Smits</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>eigen</build_depend>
+  <build_depend>rtt</build_depend>
+  <build_depend>cmake_modules</build_depend>
+
+  <run_depend>rtt</run_depend>
+</package>
